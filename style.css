@@ -1,0 +1,100 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw ;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    text-shadow: 
+    1px 1px 0px black,
+    -1px 1px 0px black,
+    1px -1px 0px black,
+    -1px -1px 0px black;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > header {
+    background-color: orange;
+    color: white;
+}
+
+#main-header {
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ul-elements {
+    display: flex;
+}
+
+#ul-elements > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: orange;
+    display: flex;
+}
+
+#foot-ul {
+    display: flex;
+    list-style: none;
+}
+
+#foot-ul > div > li {
+    margin-left: 12px;
+}
+
+#foot-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+/* Universal selector is * symbol and its used to target everything. */
